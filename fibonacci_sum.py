@@ -1,6 +1,6 @@
 #! /usr/bin/python
 '''
-Fibonacci 数列，求偶数值的和
+Fibonacc
 '''
 def f_even_sum(num):
 	a = 1
@@ -13,4 +13,5 @@ def f_even_sum(num):
 		if b % 2 == 0 :
 			sum += b
 	return sum
-print f_even_sum(100000000)
+if __name__ == '__main__':
+	print f_even_sum(100000000)
